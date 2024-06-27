@@ -1,7 +1,7 @@
 import requests
 import time
 
-bot_token = '6602472961:AAGb-GL71Xr3DUPaCxzbQbrvH3GvvVsTQEg'
+bot_token = 'bot_token'
 url = f'https://api.telegram.org/bot{bot_token}/getUpdates'
 
 printed_messages = set()
